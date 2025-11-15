@@ -3,4 +3,11 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="light_grey">#E0E0E0</color>
+
+    <!-- Other colors you might have -->
+    <color name="purple_500">#FF6200EE</color>
+    <color name="teal_200">#FF03DAC5</color>
+
+    <!-- Add this line for your red color -->
+    <color name="my_red">#FF0000</color>
 </resources>

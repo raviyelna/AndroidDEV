@@ -29,6 +29,6 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun AccessButtonClicked(view: View){
-        setContentView(R.layout.loginpage)
+        setContentView(R.layout.mainpage)
     }
 }
