@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/include_root"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp"
+    android:background="@android:color/white"
+    android:elevation="2dp">
+
+    <ImageView
+        android:id="@+id/iv_detail"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:src="@drawable/activity_transparent"
+        android:contentDescription="icon"
+        android:layout_marginEnd="8dp"
+        android:clickable="true"
+        android:focusable="true" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/ed_value"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Tên môn" />
+
+        <EditText
+            android:id="@+id/ed_desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Mô tả"
+            android:inputType="textMultiLine"
+            android:minLines="2"
+            android:layout_marginTop="4dp" />
+    </LinearLayout>
+</LinearLayout>
